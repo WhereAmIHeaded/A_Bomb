@@ -1,25 +1,20 @@
 # Bomb Countdown (Java Swing)
 
-A simple Java Swing “bomb countdown” demo app that shows a countdown, blocks closing the window until it finishes, and plays a GIF + WAV when you click the exit button.
+A small Java Swing demo app that runs a countdown, shows status messages, and plays a GIF + WAV effect at the end.
 
-## Features
-- Countdown with system beep (updates every second)
-- Prevents closing the window while time remains
-- Shows a popup at the end and reveals an “Exit” button
-- Plays `fullBang.wav` and displays `yuna-matsumoto-bang.gif`
+## What it does
+- Updates a countdown every second (with a system beep)
+- Shows an end message and a button to trigger the final effect
+- Displays `yuna-matsumoto-bang.gif` and plays `fullBang.wav`
 
 ## Tech
-- Java
-- Swing (`javax.swing.Timer`)
-- Java Sound (`javax.sound.sampled`)
+- Java, Swing (`Timer`)
+- Java Sound (`Clip`)
 
-## How to Run
-- Run `apps.bombcountdown.BombCountDown`
+## Run
+- Run: `apps.bombcountdown.BombCountDown`
 
-## Assets
-Place these files where the program can load them (classpath recommended):
+## Files
+Put these resources on the classpath (or keep the same relative path as in the code):
 - `yuna-matsumoto-bang.gif`
 - `fullBang.wav`
-
-## Notes
-Uses `shared.UIInit.initChineseUI()` for global UI/font defaults.
