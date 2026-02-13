@@ -12,7 +12,8 @@ A small Java Swing demo app that runs a countdown, shows status messages, and pl
 - Java Sound (`Clip`)
 
 ## Run
-- Run: `apps.bombcountdown.BombCountDown`
+- Run: src/apps/bombcountdown/BombCountDown.java
+- or run dist/Run_A_Bomb
 
 ## Files
 Put these resources on the classpath (or keep the same relative path as in the code):
