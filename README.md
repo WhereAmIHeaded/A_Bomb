@@ -11,9 +11,10 @@ A small Java Swing demo app that runs a countdown, shows status messages, and pl
 - Java, Swing (`Timer`)
 - Java Sound (`Clip`)
 
-## Run
-- Run: src/apps/bombcountdown/BombCountDown.java
-- or run dist/Run_A_Bomb.bat (may report virus)
+## How to Run? 
+- src file: src/apps/bombcountdown/BombCountDown.java
+- if you have java downloaded: dist/Run_A_Bomb.bat (may report virus)
+- if you don't have java: 
 
 ## Files
 Put these resources on the classpath (or keep the same relative path as in the code):
